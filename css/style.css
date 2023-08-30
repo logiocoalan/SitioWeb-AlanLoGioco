@@ -1,0 +1,245 @@
+/*
+TIPOGRAFIAS CARGADAS:
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Halant', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+body {
+    background-color: #aaaaaa;
+    margin: 0;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.barra-lateral {
+    background-color: #acacac;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    width: 90px;
+}
+    .barra-lateral ul li {
+        margin-left: -50px; /* Imagino que puede traer problemas poner este margen negativo, pero cuando lo dejo en 0 se me separa demasiado del borde izquierdo de la pantalla */
+        margin-top: 100px;
+        margin-bottom: 180px;
+        list-style: none;
+        transform: rotate(-90deg);
+        border-bottom: 3px solid black;
+        padding-bottom: 20px;
+    }
+    .barra-lateral ul li a {
+        color: black;
+        font-size: 17px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        text-align: center;
+    }
+
+/*FOOTER*/
+footer {
+    background-color: #898989;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .CV {
+        display: flex;
+        align-self: center;
+        margin-left: 40px;
+        height: 100%;
+        background-color: aquamarine;
+    }
+
+    .contactos-footer ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 25px;
+    }
+
+        .contactos-footer ul li a img {
+            height: 30px;
+            margin-right: 15px;
+            margin-top: -10px;
+            margin-bottom: -10px;
+        }
+
+/*INICIO*/
+.inicio {
+    width: 80%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+    .inicio h1 {
+        font-family: 'Halant', serif;
+        display: inline-block;
+        font-size: 85px;
+        margin-bottom: 0;
+        margin-left: 40px;
+    }
+
+    .inicio p {
+        font-family: 'Roboto Slab', serif;
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 40px;
+        margin-right: 700px;    
+    }
+
+    .inicio img {
+        height: 480px;
+        position: relative;
+        bottom: 80px;
+        z-index: -1;
+        left: 750px;
+    }
+
+/*ACERCA DE MI*/
+.acerca-de-mi {
+    font-family: 'Roboto Slab', serif;
+    width: 80%;
+    height: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 12%;
+}
+
+    .acerca-de-mi h1 {
+        font-family: 'Halant', serif;
+        display: inline-block;
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+
+    .acerca-de-mi p {  
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 20px;    
+    }
+
+    .acerca-de-mi ul {
+        list-style: none;
+        font-size: 20px;
+    }
+
+    .acerca-de-mi h3 {
+        display: inline-block;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+.soft {
+    margin-top: 80px;
+}
+
+    .soft h3 { 
+        padding-right: 315px;
+    }
+
+    .soft ul {
+        list-style: none;
+        padding: 0;
+        display: inline-block;
+    }
+      
+    .soft li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+        
+    .soft li img {
+        height: 90px;
+        margin-top: 0;
+    }
+    
+.habilidades {
+    margin-top: 40px;
+}
+
+    .habilidades h3 { 
+        padding-right: 150px;
+    }
+    .habilidades ul {
+        padding: 0;
+        display: inline-block;
+    }
+            
+    .habilidades ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .habilidades ul li a {
+        font-size: 22px;
+        padding-right: 16px;
+    }
+
+/*PROYECTOS*/
+.proyectos {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 12%;
+}
+
+    .proyectos div {
+        margin-left: 100px;
+        width: 40%;
+        height: 25%;
+        margin: 2.5%; 
+        padding: 15px;
+    }
+
+    .proyectos div img {
+        width: 100%;
+        height: 100%;
+    }
+
+/* 
+Quisiera hacer que las portadas de los proyectos se basen en el mismo tamaño de alto para que queden iguales, pero no logué hacerlo.
+*/
+
+/*CONTACTO*/
+.contacto {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+    .contacto h1 {
+        font-family: 'Halant', serif;
+        display: inline-block;
+        font-size: 60px;
+        margin: 0;
+        margin-left: -85px;
+    }
+    .contacto div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+    }
+    .contacto div input {
+        width: 80%;
+        height: 40px;
+    }
+    .contacto div textarea {
+        width: 80%;
+        height: 200px;
+    }
