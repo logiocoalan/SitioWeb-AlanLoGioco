@@ -13,13 +13,14 @@
 </head>
 
 <body>
-    <nav class="barra-lateral">
+    <!--No entiendo porqué sólo en esta página la barra lateral y el footer se achica-->
+    <nav class="barra-lateral navbar-expand-md d-none d-md-block">
         <ul>
             <li>
                 <a href="../SitioWeb_AlanLoGioco/index.html">INICIO</a>
             </li>
             <li>
-                <a href="..//SitioWeb_AlanLoGioco/html/acerca-de-mi.html">ACERCA DE MÍ</a>
+                <a href="../SitioWeb_AlanLoGioco/html/acerca-de-mi.html">ACERCA DE MÍ</a>
             </li>
             <li>
                 <a href="../SitioWeb_AlanLoGioco/html/proyectos.html">PROYECTOS</a>
@@ -28,6 +29,29 @@
                 <a href="../SitioWeb_AlanLoGioco/html/contacto.html">CONTACTO</a>
             </li>
         </ul>
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark d-md-none">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../SitioWeb_AlanLoGioco/index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="..//SitioWeb_AlanLoGioco/html/acerca-de-mi.html">ACERCA DE MÍ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../SitioWeb_AlanLoGioco/html/proyectos.html">PROYECTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../SitioWeb_AlanLoGioco/html/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <section class="inicio">
         <div class="frase-inicio"><h1>De la nada a la forma</h1></div>
