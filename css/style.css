@@ -233,9 +233,6 @@ footer {
         height: 100%;
     }
 
-/* 
-Quisiera hacer que las portadas de los proyectos se basen en el mismo tamaño de alto para que queden iguales, pero no logué hacerlo.
-*/
 
 /*CONTACTO*/
 .contacto {
@@ -243,6 +240,9 @@ Quisiera hacer que las portadas de los proyectos se basen en el mismo tamaño de
     margin-top: 5%;
     margin-left: 30%;
 }
+    .contacto form {
+        margin-top: 20px;
+    }
     .contacto h1 {
         font-family: 'Halant', serif;
         display: inline-block;
@@ -250,18 +250,6 @@ Quisiera hacer que las portadas de los proyectos se basen en el mismo tamaño de
         margin: 0;
         margin-left: -85px;
     }
-    .contacto div {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+    .contacto div { 
         font-size: 20px;
-    }
-    .contacto div input {
-        width: 80%;
-        height: 40px;
-    }
-    .contacto div textarea {
-        width: 80%;
-        height: 200px;
     }
