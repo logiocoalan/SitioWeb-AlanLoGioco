@@ -6,16 +6,23 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
+.body-proyectos{
+    background-image: url("../img/fondoSitioWebProyectos.png");
+}
 
 body {
-    background-color: #aaaaaa;
+  /* background-color: #202123;*/
+    background-image: url("../img/fondoSitioWeb.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
 }
 
 /*BARRA DE NAVEGACIÓN*/
 .barra-lateral {
     position: fixed;
-    background-color: #acacac;
+    background-color: #fae69e;
     z-index: 1;
     top: 0;
     left: 0;
@@ -38,18 +45,45 @@ body {
     }
 
     .barra-lateral ul li a {
-        color: black;
+        color: #202123;
         font-size: 17px;
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
         text-align: center;
-        border-bottom: 1px solid black;
+    }
+    .barra-lateral ul li a:hover {
+        color: #B71F04;
+        border-bottom: 1px solid #B71F04;
+        transition: 0,5s;
     }
 
+    .navbar{
+        position: fixed;
+        font-family: 'Roboto Slab', serif;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .colores-barra-navegacion {
+        background-color: #fae69e;
+    }
+.body-proyectos .barra-lateral {
+    background-color: #202123;
+}
+
+    .body-proyectos .barra-lateral ul li a {
+        color: #fae69e;
+    }
+
+    .body-proyectos .barra-lateral ul li a:hover {
+        color: #B71F04;
+    }
 
 /*FOOTER*/
 footer {
-    background-color: #898989;
+    background-color: #D0D0D0E6;
     width: 100%;
     height: 55px;
     position: fixed;
@@ -58,13 +92,16 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.footer-proyectos {
+    background-color: #000000E6;
+}
 
     .CV {
         display: flex;
         height: 30px;
         margin-left: 25px;
         margin-top: 10px;
-        background-color: aquamarine;
+        background-color: #09544D;
     }
 
     .contactos-footer ul {
@@ -108,18 +145,21 @@ footer {
 
     .inicio h1 {
         font-family: 'Halant', serif;
+        color: #B71F04;
         font-size: 110px;
         margin-left: 40px;
     }
 
     .inicio h3 {
         font-family: 'Roboto Slab', serif;
+        color: #202123;
         font-size: 60px;
         margin-left: 40px;
     }
 
     .inicio p {
         font-family: 'Roboto Slab', serif;
+        color: #B71F04;
         font-size: 20px;
     }
 
@@ -130,6 +170,7 @@ footer {
 /*ACERCA DE MI*/
 .acerca-de-mi {
     font-family: 'Roboto Slab', serif;
+    color: #202123;
     width: 80%;
     height: 80%;
     margin: 5% auto;
@@ -137,6 +178,7 @@ footer {
 
     .acerca-de-mi h1 {
         font-family: 'Halant', serif;
+        color: #B71F04;
         font-size: 70px;
         margin-bottom: 0;
     }
@@ -154,11 +196,13 @@ footer {
 
     .acerca-de-mi h3 {
         display: inline-block;
+        color: #B71F04;
         font-size: 30px;
         margin-bottom: 50px;
     }
 
 .soft {
+    color: #202123;
     margin-top: 80px;
 }
 
@@ -176,9 +220,11 @@ footer {
         display: inline-block;
     }
         
-    .soft li img {
+    .icon {
+        width: 90px;
         height: 90px;
         margin-top: 0;
+        fill: #B71F04;
     }
     
 .habilidades {
@@ -206,41 +252,40 @@ footer {
 /*PROYECTOS*/
 .proyectos {
     font-family: 'Roboto Slab', serif;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 80%;
-    height: 80%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 12%;
+    padding-top: 90px;
 }
 
-    .proyectos div {
-        margin-left: 100px;
-        width: 40%;
-        height: 25%;
-        margin: 2.5%; 
-        padding: 15px;
+    .pokito {
+        padding-top: 65px;
+        font-family: 'Halant', serif;
+        color: #fae69e;
+        font-size: 60px;
+        z-index:-1;
     }
 
-    .proyectos div img {
-        width: 100%;
-        height: 100%;
+    .carousel-inner {
+        padding-top: 5px;
+        padding-bottom: 10px;
     }
 
 
 /*CONTACTO*/
 .contacto {
-    width: 40%;
-    margin-top: 5%;
-    margin-left: 30%;
+    display: inline-block;
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right:0%;
+
 }
     .contacto form {
         margin-top: 20px;
+        width: 100%;
+        display: flex;
     }
     .contacto h1 {
         font-family: 'Halant', serif;
+        color: #202123;
         display: inline-block;
         font-size: 60px;
         margin: 0;
