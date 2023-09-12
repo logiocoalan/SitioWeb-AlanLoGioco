@@ -1,0 +1,73 @@
+.acerca-de-mi {
+    font-family: 'Roboto Slab', serif;
+    color: #202123;
+    width: 80%;
+    height: 80%;
+    margin: 5% auto;
+    h1 {
+        font-family: 'Halant', serif;
+        color: #B71F04;
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+
+    p {  
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 20px;    
+    }
+
+    ul {
+        font-size: 20px;
+    }
+
+    h3 {
+        display: inline-block;
+        color: #B71F04;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+.soft {
+    color: #202123;
+    margin-top: 80px;
+    h3 { 
+        padding-right: 315px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        display: inline-block;
+        li {
+            display: inline-block;
+            .icon {
+                width: 90px;
+                height: 90px;
+                margin-top: 0;
+                fill: #B71F04;
+            }
+        }
+    }
+}
+
+.habilidades {
+    margin-top: 40px;
+    h3 { 
+        padding-right: 150px;
+    }
+    ul {
+        padding: 0;
+        display: inline-block;
+        li {
+            display: inline-block;
+            list-style: none;
+            a {
+                font-size: 22px;
+                padding-right: 16px;
+            }
+        }
+    }
+}

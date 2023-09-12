@@ -1,0 +1,43 @@
+.inicio {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas: 
+    'frase-inicio frase-inicio'
+    'texto-inicio foto-inicio';
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    h1 {
+        font-family: 'Halant', serif;
+        color: #B71F04;
+        font-size: 110px;
+        margin-left: 40px;
+    }
+    h3 {
+        font-family: 'Roboto Slab', serif;
+        color: #202123;
+        font-size: 60px;
+        margin-left: 40px;
+    }
+    p {
+        font-family: 'Roboto Slab', serif;
+        color: #B71F04;
+        font-size: 20px;
+    }
+    img {
+        height: 480px;
+    }
+    .frase-inicio {
+        grid-area: frase-inicio;
+        align-items: center; 
+    }
+    .texto-inicio {
+        grid-area: texto-inicio; 
+        margin-top: 8%;
+    }
+    .foto-inicio {
+        grid-area: foto-inicio; 
+        margin-top: 8%;
+    }
+}
