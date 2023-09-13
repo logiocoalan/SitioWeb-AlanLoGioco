@@ -9,20 +9,20 @@
     margin-top: 5%;
     margin-left: 10%;
     h1 {
-        font-family: 'Halant', serif;
-        color: #B71F04;
+        font-family: $titulo-font;
+        color: $bordeaux;
         font-size: 110px;
         margin-left: 40px;
     }
     h3 {
-        font-family: 'Roboto Slab', serif;
-        color: #202123;
+        font-family: $parrafo-font;
+        color: $negro;
         font-size: 60px;
         margin-left: 40px;
     }
     p {
-        font-family: 'Roboto Slab', serif;
-        color: #B71F04;
+        font-family: $parrafo-font;
+        color: $bordeaux;
         font-size: 20px;
     }
     img {

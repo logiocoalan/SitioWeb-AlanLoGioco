@@ -2,7 +2,7 @@
 //BARRA LATERAL
 .barra-lateral {
     position: fixed;
-    background-color: #fae69e;
+    background-color: $amarillo;
     z-index: 1;
     top: 0;
     left: 0;
@@ -27,9 +27,8 @@
                 text-decoration: none;
                 text-align: center;
                 &:hover {
-                    color: #B71F04;
-                    border-bottom: 1px solid #B71F04;
-                    transition: 0,5s;
+                    color: $bordeaux;
+                    transition: 8s;
                 }
             }
         }
@@ -37,13 +36,14 @@
 }
 .body-proyectos {
     .barra-lateral {
-        background-color: #202123;
+        background-color: $negro;
         ul {
             li {
                 a {
-                    color: #fae69e;
+                    color: $amarillo;
                     &:hover {
-                        color: #B71F04;
+                        color: $bordeaux;
+                        transition: 2s;
                     }
                 }
             }
@@ -57,7 +57,7 @@
 //HAMBURGUESA (VERSIÓN MOBILE)
 .navbar{
     position: fixed;
-    font-family: 'Roboto Slab', serif;
+    font-family: $parrafo-font;
     z-index: 1;
     top: 0;
     left: 0;
@@ -65,5 +65,5 @@
 }
 
 .colores-barra-navegacion {
-    background-color: #fae69e;
+    background-color: $amarillo;
 }
